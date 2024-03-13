@@ -3,6 +3,7 @@ import { PORT, mongoURL } from './config.js'
 import mongoose from 'mongoose'
 import { Instructor } from './models/instructorModel.js';
 import instructorRoute from './routes/instructorRoutes.js';
+import cors from 'cors';
 
 const app = express();
 
